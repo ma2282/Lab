@@ -9,8 +9,28 @@ ol li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #table {
-    line-height:200%
+    line-height:200%;
+	display: flex;
+	justify-content: center;
+	border-collapse: collapse;
 }
+#table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+}
+#table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+#table tbody tr:nth-child(odd){
+	background: #fff;
+}
+#table tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
+
 footer {
     padding-top: 3px;
     padding-bottom: 3px;
